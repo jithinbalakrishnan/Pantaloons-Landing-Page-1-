@@ -1,5 +1,59 @@
 body {
     padding: 0;
     margin: 0;
-}
 
+}
+.header {
+    background-color: #555555;
+    height: 90px;
+}
+.header-title-wrapper {
+    text-align: center;
+    margin-top: 5px;
+    text-align: -webkit-center;
+}
+.header-title {
+    color: rgba(226,246, 247, 0.97);
+    font-size: 40px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+.title-underline {
+    width: 210px;
+    height: 1px;
+    border: 1px solid rgba(226,246, 247, 0.97);
+    background-color: rgba(226,246, 247, 0.97);
+}
+.tag-line {
+    color: white;
+    letter-spacing: 15px;
+    text-transform: uppercase;
+    color: rgba(226,246, 247, 0.97);
+}
+.image-wrapper {
+    background-image: url("images/pantaloons.jpg");
+    height:450px ;
+}
+.description-wrapper {
+    height: 250px;
+    background-color: #555555;
+}
+.description-divider {
+    width: 300px;
+    height: 1px;
+    border: 1px solid;
+    background-color: rgba(0, 0, 0, 0.38);
+}
+.description-1 {
+    margin-top: 50px;
+    margin-bottom: 10px;
+}
+.description-1 > p {
+    color: rgba(226,246, 247, 0.41);
+}
+.description-2 {
+    margin-top: 15px;
+}
+.description-2 > p {
+    color: rgba(226,246, 247, 0.41);
+}
